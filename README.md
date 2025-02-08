@@ -12,16 +12,16 @@
 
 ## Requirements
 To run this project, install the following dependencies:
-- **Node.js** (v14+ recommended)
-- **npm** or **yarn** (package manager)
+- **Python** (v3.8+ recommended)
+- **Flask** for backend development
+- **OpenCV** for computer vision tasks
 - **MediaPipe** for pose estimation
-- **TensorFlow.js** (if required for AI-based enhancements)
-- **Express.js** for backend processing (if applicable)
+- **TensorFlow** (if required for AI-based enhancements)
 
 ### Install Required Packages
 Run the following command to install dependencies:
 ```sh
-npm install express mediapipe tensorflowjs
+pip install flask opencv-python mediapipe tensorflow
 ```
 
 ## Installation
@@ -32,11 +32,11 @@ npm install express mediapipe tensorflowjs
    ```
 2. **Install dependencies:**
    ```sh
-   npm install
+   pip install -r requirements.txt
    ```
 3. **Run the application:**
    ```sh
-   npm start
+   python app.py
    ```
 
 ## Usage
@@ -45,13 +45,12 @@ npm install express mediapipe tensorflowjs
 - The system will **detect your form and provide feedback**.
 
 ## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript
-- **AI & Computer Vision:** MediaPipe, TensorFlow.js
-- **Backend:** Flask
+- **Backend:** Flask (Python)
+- **Computer Vision:** OpenCV, MediaPipe
+- **Machine Learning:** TensorFlow (if applicable)
+- **Frontend:** HTML, CSS, JavaScript (for UI)
 
 ## Future Enhancements
 - Add support for **more exercises and postures**.
 - Improve **real-time feedback accuracy** using deep learning.
 - Develop a **mobile-friendly version** for better accessibility.
-
-
